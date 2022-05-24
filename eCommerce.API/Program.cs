@@ -1,12 +1,18 @@
+﻿using eCommerce.API.Configurations;
 using eCommerce.API.Date;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var connstring = builder.Configuration.GetConnectionString("eCommerceAppDBConnection");
-builder.Services.AddDbContext<eCommerceDBContext>(options => options.UseSqlServer());
+builder.Services.AddDbContext<eCommerceDBContext>(options => options.UseSqlServer(connstring));
+
+
+
+builder.Services.AddAutoMapper(typeof(MapperConfig));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
