@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -180,6 +181,60 @@ namespace eCommerce.API.Date
                     .HasMaxLength(10)
                     .HasColumnName("phoneNumber");
             });
+
+            modelBuilder.Entity<IdentityRole>().HasData(
+                new IdentityRole 
+                { 
+                    Name = "Administrator",
+                    NormalizedName = "ADMINISTRATOR",
+                    Id = "5ebe1e7b-8c70-44f4-ad8f-52a7f5b1c665"
+                },
+                new IdentityRole
+                {
+                    Name = "User",
+                    NormalizedName = "USER",
+                    Id = "b2ae64a2-e75d-471b-9beb-3ad2051100a7"
+                }
+             );
+
+            var hasher = new PasswordHasher<ApiUser>();
+            modelBuilder.Entity<ApiUser>().HasData(
+                new ApiUser
+                {
+                    Id = "2f6d6dd3-d5c5-47e6-958f-f0e132155645",
+                    Email = "admin@ecommerce.com",
+                    NormalizedEmail = "ADMIN@ECOMMERCE.COM",
+                    UserName = "admin@ecommerce.com",
+                    NormalizedUserName = "ADMIN@ECOMMERCE.COM",
+                    firstName = "System",
+                    lastName = "Admin",
+                    PasswordHash = hasher.HashPassword(null, "Admin@1237")
+                },
+                new ApiUser
+                {
+                    Id = "ef393311-9f6c-46ac-b8ea-bc2a019b8cf6",
+                    Email = "user@ecommerce.com",
+                    NormalizedEmail = "USER@ECOMMERCE.COM",
+                    UserName = "user@ecommerce.com",
+                    NormalizedUserName = "USER@ECOMMERCE.COM",
+                    firstName = "System",
+                    lastName = "User",
+                    PasswordHash = hasher.HashPassword(null, "User@1237")
+                }
+             );
+
+            modelBuilder.Entity<IdentityUserRole<string>>().HasData(
+                new IdentityUserRole<string>
+                {
+                    RoleId = "5ebe1e7b-8c70-44f4-ad8f-52a7f5b1c665",
+                    UserId = "2f6d6dd3-d5c5-47e6-958f-f0e132155645"
+                },
+                new IdentityUserRole<string>
+                {
+                    RoleId = "b2ae64a2-e75d-471b-9beb-3ad2051100a7",
+                    UserId = "ef393311-9f6c-46ac-b8ea-bc2a019b8cf6"
+                }
+             );
 
             OnModelCreatingPartial(modelBuilder);
         }
