@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace eCommerce.API.Date
 {
-    public partial class eCommerceDBContext : DbContext
+    public partial class eCommerceDBContext : IdentityDbContext<ApiUser>
     {
         public eCommerceDBContext()
         {
@@ -28,6 +29,8 @@ namespace eCommerce.API.Date
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Cart>(entity =>
             {
                 entity.ToTable("Cart");

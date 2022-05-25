@@ -22,5 +22,6 @@ namespace eCommerce.API.Models_DTOs.Product
         public int SupplierId { get; set; }
         [Required]
         public int CategoryId { get; set; }
+        public string CategoryName { get; set; }    
     }
 }

@@ -9,5 +9,6 @@ namespace eCommerce.API.Models_DTOs.CartItem
         public decimal Discount { get; set; }
         public int CartId { get; set; }
         public int ProductId { get; set; }
+        public string ProductName { get; set; }
     }
 }

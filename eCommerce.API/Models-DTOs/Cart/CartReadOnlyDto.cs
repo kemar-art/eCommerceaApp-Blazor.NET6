@@ -6,5 +6,6 @@ namespace eCommerce.API.Models_DTOs.Cart
     {
         [Required]
         public int CustomerId { get; set; }
+        public string CustomerName { get; set; }
     }
 }

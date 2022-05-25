@@ -1,5 +1,6 @@
 ﻿using eCommerce.API.Configurations;
 using eCommerce.API.Date;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Serilog;
@@ -7,10 +8,14 @@ using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+//Connect to The DB
 var connstring = builder.Configuration.GetConnectionString("eCommerceAppDBConnection");
 builder.Services.AddDbContext<eCommerceDBContext>(options => options.UseSqlServer(connstring));
 
-
+builder.Services.AddIdentityCore<ApiUser>()
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<eCommerceDBContext>();
 
 builder.Services.AddAutoMapper(typeof(MapperConfig));
 

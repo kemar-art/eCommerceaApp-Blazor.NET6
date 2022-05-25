@@ -8,3 +8,8 @@
 2022-05-24 19:20:57.003 -05:00 [INF] Application started. Press Ctrl+C to shut down.
 2022-05-24 19:20:57.009 -05:00 [INF] Hosting environment: Development
 2022-05-24 19:20:57.010 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-24 20:16:47.940 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-24 20:16:47.986 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-24 20:16:47.999 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-24 20:16:48.000 -05:00 [INF] Hosting environment: Development
+2022-05-24 20:16:48.001 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
