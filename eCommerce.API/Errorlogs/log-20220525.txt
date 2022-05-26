@@ -1,0 +1,31 @@
+2022-05-25 21:53:44.414 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-25 21:53:44.454 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-25 21:53:44.459 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-25 21:53:44.461 -05:00 [INF] Hosting environment: Development
+2022-05-25 21:53:44.463 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-25 21:54:17.167 -05:00 [INF] Registration Attempt for user@ecommerce.com 
+2022-05-25 21:54:18.726 -05:00 [ERR] Something Went Wrong in the Login
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'System.String' requires a key size of at least 'System.Int32' bits. Key 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', is of size: 'System.Int32'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at eCommerce.API.Controllers.AuthController.GenerateToken(ApiUser user) in C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\Controllers\AuthController.cs:line 124
+   at eCommerce.API.Controllers.AuthController.Login(LoginUserDto userDto) in C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\Controllers\AuthController.cs:line 77
+2022-05-25 22:00:54.405 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-25 22:00:54.469 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-25 22:00:54.482 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-25 22:00:54.483 -05:00 [INF] Hosting environment: Development
+2022-05-25 22:00:54.485 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-25 22:01:28.042 -05:00 [INF] Registration Attempt for user@ecommerce.com 
+2022-05-25 22:02:30.327 -05:00 [INF] Registration Attempt for Admin1@ecommerce.com 
+2022-05-25 22:02:48.773 -05:00 [INF] Registration Attempt for admin1@ecommerce.com 
+2022-05-25 22:03:12.570 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-25 22:07:24.084 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-25 22:07:24.119 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-25 22:07:24.124 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-25 22:07:24.125 -05:00 [INF] Hosting environment: Development
+2022-05-25 22:07:24.126 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-25 22:08:18.894 -05:00 [INF] Registration Attempt for user@ecommerce.com 

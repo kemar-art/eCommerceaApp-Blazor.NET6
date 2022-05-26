@@ -10,6 +10,7 @@ using eCommerce.API.Models_DTOs.Payment;
 using eCommerce.API.Models_DTOs.Product;
 using eCommerce.API.Models_DTOs.Products;
 using eCommerce.API.Models_DTOs.Supplier;
+using eCommerce.API.Models_DTOs.User;
 
 namespace eCommerce.API.Configurations
 {
@@ -52,6 +53,8 @@ namespace eCommerce.API.Configurations
             CreateMap<SupplierCreateDto, Supplier>().ReverseMap();
             CreateMap<SupplierReadOnlyDto, Supplier>().ReverseMap();
             CreateMap<SupplierUpdateDto, Supplier>().ReverseMap();
+
+            CreateMap<ApiUser, AuthUserDto>().ReverseMap();
         }
     }
 }
