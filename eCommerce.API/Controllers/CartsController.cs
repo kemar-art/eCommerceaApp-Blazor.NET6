@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using eCommerce.API.Date;
 using eCommerce.API.Models_DTOs.Cart;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 
 namespace eCommerce.API.Controllers
 {
@@ -26,6 +27,7 @@ namespace eCommerce.API.Controllers
 
         // GET: api/Carts
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<CartReadOnlyDto>>> GetCarts()
         {
           if (_context.Carts == null)
@@ -59,6 +61,7 @@ namespace eCommerce.API.Controllers
         // PUT: api/Carts/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize(Roles = "Administrator") ]
         public async Task<IActionResult> PutCart(int id, CartUpdateDto cartDto)
         {
             if (id != cartDto.Id)
@@ -98,6 +101,7 @@ namespace eCommerce.API.Controllers
         // POST: api/Carts
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize(Roles = "Administrator")]
         public async Task<ActionResult<CartCreateDto>> PostCart(CartCreateDto CartDto)
         {
           if (_context.Carts == null)
@@ -113,6 +117,7 @@ namespace eCommerce.API.Controllers
 
         // DELETE: api/Carts/5
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> DeleteCart(int id)
         {
             if (_context.Carts == null)

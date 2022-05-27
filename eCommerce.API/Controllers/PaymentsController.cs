@@ -8,11 +8,13 @@ using Microsoft.EntityFrameworkCore;
 using eCommerce.API.Date;
 using AutoMapper;
 using eCommerce.API.Models_DTOs.Payment;
+using Microsoft.AspNetCore.Authorization;
 
 namespace eCommerce.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class PaymentsController : ControllerBase
     {
         private readonly eCommerceDBContext _context;
@@ -59,6 +61,7 @@ namespace eCommerce.API.Controllers
         // PUT: api/Payments/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> PutPayment(int id, PaymentUpdateDto paymentDto)
         {
             if (id != paymentDto.Id)
@@ -98,6 +101,7 @@ namespace eCommerce.API.Controllers
         // POST: api/Payments
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize(Roles = "Administrator")]
         public async Task<ActionResult<PaymentCreateDto>> PostPayment(PaymentCreateDto PaymentDto)
         {
           if (_context.Payments == null)
@@ -113,6 +117,7 @@ namespace eCommerce.API.Controllers
 
         // DELETE: api/Payments/5
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> DeletePayment(int id)
         {
             if (_context.Payments == null)

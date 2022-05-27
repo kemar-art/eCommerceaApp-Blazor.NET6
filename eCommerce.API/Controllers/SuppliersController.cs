@@ -8,11 +8,13 @@ using Microsoft.EntityFrameworkCore;
 using eCommerce.API.Date;
 using AutoMapper;
 using eCommerce.API.Models_DTOs.Supplier;
+using Microsoft.AspNetCore.Authorization;
 
 namespace eCommerce.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class SuppliersController : ControllerBase
     {
         private readonly eCommerceDBContext _context;
@@ -59,6 +61,7 @@ namespace eCommerce.API.Controllers
         // PUT: api/Suppliers/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> PutSupplier(int id, SupplierUpdateDto supplierDto)
         {
             if (id != supplierDto.Id)
@@ -98,6 +101,7 @@ namespace eCommerce.API.Controllers
         // POST: api/Suppliers
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize(Roles = "Administrator")]
         public async Task<ActionResult<SupplierCreateDto>> PostSupplier(SupplierCreateDto SupplierDto)
         {
           if (_context.Suppliers == null)
@@ -113,6 +117,7 @@ namespace eCommerce.API.Controllers
 
         // DELETE: api/Suppliers/5
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> DeleteSupplier(int id)
         {
             if (_context.Suppliers == null)

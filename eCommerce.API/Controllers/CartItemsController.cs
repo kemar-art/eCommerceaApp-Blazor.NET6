@@ -9,11 +9,13 @@ using eCommerce.API.Date;
 using eCommerce.API.Models_DTOs.CartItem;
 using AutoMapper;
 using eCommerce.API.Static_ErrorMessage;
+using Microsoft.AspNetCore.Authorization;
 
 namespace eCommerce.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CartItemsController : ControllerBase
     {
         private readonly eCommerceDBContext _context;
@@ -81,6 +83,7 @@ namespace eCommerce.API.Controllers
         // PUT: api/CartItems/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> PutCartItem(int id, CartItemUpdateDto cartItemDto)
         {
             if (id != cartItemDto.Id)
@@ -123,6 +126,7 @@ namespace eCommerce.API.Controllers
         // POST: api/CartItems
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize(Roles = "Administrator")]
         public async Task<ActionResult<CartItemCreateDto>> PostCartItem(CartItemCreateDto CartItemDto)
         {
             try
@@ -148,6 +152,7 @@ namespace eCommerce.API.Controllers
 
         // DELETE: api/CartItems/5
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> DeleteCartItem(int id)
         {
             try

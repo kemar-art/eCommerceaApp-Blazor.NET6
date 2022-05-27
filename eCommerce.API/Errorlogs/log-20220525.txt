@@ -29,3 +29,14 @@ System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'System.S
 2022-05-25 22:07:24.125 -05:00 [INF] Hosting environment: Development
 2022-05-25 22:07:24.126 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
 2022-05-25 22:08:18.894 -05:00 [INF] Registration Attempt for user@ecommerce.com 
+2022-05-25 22:14:08.810 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-25 22:14:08.848 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-25 22:14:08.859 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-25 22:14:08.860 -05:00 [INF] Hosting environment: Development
+2022-05-25 22:14:08.861 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-25 22:16:41.325 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-25 22:16:41.364 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-25 22:16:41.376 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-25 22:16:41.377 -05:00 [INF] Hosting environment: Development
+2022-05-25 22:16:41.377 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-25 22:17:08.538 -05:00 [INF] Registration Attempt for user@ecommerce.com 

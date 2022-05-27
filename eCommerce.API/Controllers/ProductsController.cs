@@ -9,11 +9,13 @@ using eCommerce.API.Date;
 using AutoMapper;
 using eCommerce.API.Models_DTOs.Products;
 using eCommerce.API.Models_DTOs.Product;
+using Microsoft.AspNetCore.Authorization;
 
 namespace eCommerce.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ProductsController : ControllerBase
     {
         private readonly eCommerceDBContext _context;
@@ -60,6 +62,7 @@ namespace eCommerce.API.Controllers
         // PUT: api/Products/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> PutProduct(int id, ProductUpdateDto productDto)
         {
             if (id != productDto.Id)
@@ -99,6 +102,7 @@ namespace eCommerce.API.Controllers
         // POST: api/Products
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize(Roles = "Administrator")]
         public async Task<ActionResult<ProductCreateDto>> PostProduct(ProductCreateDto ProductDto)
         {
           if (_context.Products == null)
@@ -114,6 +118,7 @@ namespace eCommerce.API.Controllers
 
         // DELETE: api/Products/5
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
             if (_context.Products == null)

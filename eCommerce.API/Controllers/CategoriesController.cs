@@ -8,11 +8,13 @@ using Microsoft.EntityFrameworkCore;
 using eCommerce.API.Date;
 using AutoMapper;
 using eCommerce.API.Models_DTOs.Categorey;
+using Microsoft.AspNetCore.Authorization;
 
 namespace eCommerce.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CategoriesController : ControllerBase
     {
         private readonly eCommerceDBContext _context;
@@ -59,6 +61,7 @@ namespace eCommerce.API.Controllers
         // PUT: api/Categories/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> PutCategory(int id, CategoreyUpdateDto categoryDto)
         {
             if (id != categoryDto.Id)
@@ -98,6 +101,7 @@ namespace eCommerce.API.Controllers
         // POST: api/Categories
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize(Roles = "Administrator")]
         public async Task<ActionResult<CategoryCreateDto>> PostCategory(CategoryCreateDto categoryDto)
         {
           if (_context.Categories == null)
@@ -113,6 +117,7 @@ namespace eCommerce.API.Controllers
 
         // DELETE: api/Categories/5
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> DeleteCategory(int id)
         {
             if (_context.Categories == null)

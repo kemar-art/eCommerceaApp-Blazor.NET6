@@ -8,11 +8,13 @@ using Microsoft.EntityFrameworkCore;
 using eCommerce.API.Date;
 using AutoMapper;
 using eCommerce.API.Models_DTOs.Order;
+using Microsoft.AspNetCore.Authorization;
 
 namespace eCommerce.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class OrdersController : ControllerBase
     {
         private readonly eCommerceDBContext _context;
@@ -59,6 +61,7 @@ namespace eCommerce.API.Controllers
         // PUT: api/Orders/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> PutOrder(int id, OrderUpdateDto orderDto)
         {
             if (id != orderDto.Id)
@@ -98,6 +101,7 @@ namespace eCommerce.API.Controllers
         // POST: api/Orders
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize(Roles = "Administrator")]
         public async Task<ActionResult<OrderCreateDto>> PostOrder(OrderCreateDto OrderDto)
         {
           if (_context.Orders == null)
@@ -113,6 +117,7 @@ namespace eCommerce.API.Controllers
 
         // DELETE: api/Orders/5
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> DeleteOrder(int id)
         {
             if (_context.Orders == null)

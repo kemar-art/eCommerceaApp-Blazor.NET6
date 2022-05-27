@@ -2,6 +2,7 @@
 using eCommerce.API.Date;
 using eCommerce.API.Models_DTOs.User;
 using MediaBrowser.Model.Dto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -13,6 +14,7 @@ namespace eCommerce.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [AllowAnonymous]
     public class AuthController : ControllerBase
     {
         private readonly ILogger<AuthController> logger;
@@ -95,7 +97,7 @@ namespace eCommerce.API.Controllers
 
         private async Task<string> GenerateToken(ApiUser user)
         {
-            var securitykey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JwtSettings:key"]));
+            var securitykey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JwtSettings:Key"]));
             var credentials = new SigningCredentials(securitykey, SecurityAlgorithms.HmacSha256);
 
             var roles = await userManager.GetRolesAsync(user);
@@ -114,10 +116,10 @@ namespace eCommerce.API.Controllers
             .Union(roleClaims);
 
             var token = new JwtSecurityToken(
-                issuer: configuration["JtwSettings:Issuer"],
-                audience: configuration["JtwSettings:Audience"],
+                issuer: configuration["JwtSettings:Issuer"],
+                audience: configuration["JwtSettings:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddHours(Convert.ToInt32(configuration["JtwSettings:Duration"])),
+                expires: DateTime.UtcNow.AddHours(Convert.ToInt32(configuration["JwtSettings:Duration"])),
                 signingCredentials: credentials
                 );
 
