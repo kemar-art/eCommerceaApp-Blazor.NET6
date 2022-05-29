@@ -1,0 +1,53 @@
+2022-05-27 19:15:03.632 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-27 19:15:03.689 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-27 19:15:03.703 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-27 19:15:03.704 -05:00 [INF] Hosting environment: Development
+2022-05-27 19:15:03.705 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-27 19:20:22.689 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-27 19:20:22.727 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-27 19:20:22.738 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-27 19:20:22.745 -05:00 [INF] Hosting environment: Development
+2022-05-27 19:20:22.746 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-27 19:25:24.063 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-27 19:25:24.102 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-27 19:25:24.113 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-27 19:25:24.114 -05:00 [INF] Hosting environment: Development
+2022-05-27 19:25:24.115 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-27 19:41:57.670 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-27 19:41:57.722 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-27 19:41:57.735 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-27 19:41:57.738 -05:00 [INF] Hosting environment: Development
+2022-05-27 19:41:57.739 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-27 21:37:47.744 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-27 21:37:47.794 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-27 21:37:47.808 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-27 21:37:47.809 -05:00 [INF] Hosting environment: Development
+2022-05-27 21:37:47.810 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-27 21:39:15.308 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-27 21:39:15.600 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-27 21:39:15.758 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-27 21:39:15.760 -05:00 [INF] Hosting environment: Development
+2022-05-27 21:39:15.761 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-27 21:41:53.367 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-27 21:41:53.465 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-27 21:41:53.480 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-27 21:41:53.481 -05:00 [INF] Hosting environment: Development
+2022-05-27 21:41:53.482 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-27 21:47:04.292 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-27 21:47:04.377 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-27 21:47:04.566 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-27 21:47:05.698 -05:00 [INF] Hosting environment: Development
+2022-05-27 21:47:05.699 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-27 21:48:22.252 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-27 21:48:22.290 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-27 21:48:22.294 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-27 21:48:22.295 -05:00 [INF] Hosting environment: Development
+2022-05-27 21:48:22.296 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-27 21:53:55.665 -05:00 [INF] Registration Attempt for kemarn@gmail.com 
+2022-05-27 21:54:27.269 -05:00 [INF] Registration Attempt for kemarn@gmail.com 
+2022-05-27 21:54:27.321 -05:00 [WRN] User validation failed: DuplicateUserName.
+2022-05-27 22:00:35.850 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-27 22:00:35.885 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-27 22:00:35.888 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-27 22:00:35.889 -05:00 [INF] Hosting environment: Development
+2022-05-27 22:00:35.890 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
