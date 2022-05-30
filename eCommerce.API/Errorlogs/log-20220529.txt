@@ -422,3 +422,122 @@ Error Number:2601,State:1,Class:14
 2022-05-29 14:40:02.927 -05:00 [INF] Hosting environment: Development
 2022-05-29 14:40:02.928 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
 2022-05-29 14:40:29.041 -05:00 [INF] Registration Attempt for kn@gmail.com 
+2022-05-29 16:43:01.689 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 16:43:01.737 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 16:43:01.743 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 16:43:01.745 -05:00 [INF] Hosting environment: Development
+2022-05-29 16:43:01.749 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 16:44:19.471 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 16:44:19.513 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 16:44:19.519 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 16:44:19.520 -05:00 [INF] Hosting environment: Development
+2022-05-29 16:44:19.523 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 18:13:29.556 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 18:13:29.623 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 18:13:29.627 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 18:13:29.629 -05:00 [INF] Hosting environment: Development
+2022-05-29 18:13:29.630 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 18:17:18.974 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 18:17:19.013 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 18:17:19.017 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 18:17:19.018 -05:00 [INF] Hosting environment: Development
+2022-05-29 18:17:19.020 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 18:19:05.444 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 18:19:05.482 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 18:19:05.487 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 18:19:05.488 -05:00 [INF] Hosting environment: Development
+2022-05-29 18:19:05.489 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 18:19:53.083 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 18:21:29.354 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 18:21:29.409 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 18:21:29.414 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 18:21:29.417 -05:00 [INF] Hosting environment: Development
+2022-05-29 18:21:29.418 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 18:22:39.686 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 18:22:39.729 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 18:22:39.733 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 18:22:39.734 -05:00 [INF] Hosting environment: Development
+2022-05-29 18:22:39.735 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 18:30:45.367 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 18:32:01.491 -05:00 [INF] Registration Attempt for kn@gamil.com 
+2022-05-29 18:34:07.009 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 18:34:07.029 -05:00 [WRN] Invalid password for user.
+2022-05-29 18:34:12.705 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 18:34:12.715 -05:00 [WRN] Invalid password for user.
+2022-05-29 18:34:28.192 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 18:34:28.203 -05:00 [WRN] Invalid password for user.
+2022-05-29 18:35:00.183 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 18:35:00.199 -05:00 [WRN] Invalid password for user.
+2022-05-29 18:35:27.349 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 18:35:41.305 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 18:35:43.617 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 18:36:21.942 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 18:36:21.979 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 18:36:21.983 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 18:36:21.984 -05:00 [INF] Hosting environment: Development
+2022-05-29 18:36:21.985 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 18:36:52.522 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 18:36:53.975 -05:00 [WRN] Invalid password for user.
+2022-05-29 18:37:12.878 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 18:37:49.353 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 18:37:49.373 -05:00 [WRN] Invalid password for user.
+2022-05-29 18:38:06.591 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 18:38:54.138 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 18:38:54.186 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 18:38:54.191 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 18:38:54.193 -05:00 [INF] Hosting environment: Development
+2022-05-29 18:38:54.194 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 18:39:41.592 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 18:39:53.915 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 18:41:48.931 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 18:41:48.976 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 18:41:48.980 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 18:41:48.981 -05:00 [INF] Hosting environment: Development
+2022-05-29 18:41:48.982 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 18:44:55.730 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 18:44:55.767 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 18:44:55.771 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 18:44:55.773 -05:00 [INF] Hosting environment: Development
+2022-05-29 18:44:55.773 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 18:45:41.344 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 18:45:41.385 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 18:45:41.389 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 18:45:41.391 -05:00 [INF] Hosting environment: Development
+2022-05-29 18:45:41.392 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 18:46:11.742 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 19:24:10.264 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 19:24:10.444 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 19:24:10.462 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 19:24:10.463 -05:00 [INF] Hosting environment: Development
+2022-05-29 19:24:10.464 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 19:24:34.627 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 19:24:34.668 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 19:24:34.672 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 19:24:34.674 -05:00 [INF] Hosting environment: Development
+2022-05-29 19:24:34.674 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 19:25:04.580 -05:00 [INF] Registration Attempt for admin@ecommerce.com 
+2022-05-29 19:29:27.897 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 19:29:27.977 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 19:29:27.997 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 19:29:28.021 -05:00 [INF] Hosting environment: Development
+2022-05-29 19:29:28.023 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 19:30:10.814 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 19:30:10.888 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 19:30:10.955 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 19:30:10.959 -05:00 [INF] Hosting environment: Development
+2022-05-29 19:30:11.194 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 19:31:34.833 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 19:31:34.868 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 19:31:34.872 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 19:31:34.873 -05:00 [INF] Hosting environment: Development
+2022-05-29 19:31:34.874 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 19:31:58.476 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 19:31:58.516 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 19:31:58.520 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 19:31:58.522 -05:00 [INF] Hosting environment: Development
+2022-05-29 19:31:58.522 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
+2022-05-29 19:32:23.456 -05:00 [INF] Now listening on: https://localhost:7264
+2022-05-29 19:32:23.495 -05:00 [INF] Now listening on: http://localhost:5264
+2022-05-29 19:32:23.499 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-29 19:32:23.500 -05:00 [INF] Hosting environment: Development
+2022-05-29 19:32:23.501 -05:00 [INF] Content root path: C:\Users\Kemar\source\repos\eCommerceaApp\eCommerce.API\
